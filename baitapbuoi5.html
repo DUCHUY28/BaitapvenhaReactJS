@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            width: 60%;
+            height: 660px;
+            border: 4px solid black;
+        }
+        /* .mock{
+            display: flex;
+            flex-direction: column;
+        } */
+        .box{
+            width: 100%;
+            height: 500px;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+        }
+        .box .content-left{
+            flex-direction: column;
+        }
+        .content-left .content1{
+            width: 200px;
+            height: 100px;
+            background-color: brown;
+            border: 4px solid black ;
+            margin: 40px 40px;
+        }
+        .content-right {
+            flex-direction: column;
+        }
+        .content2{
+            width: 500px;
+            height: 100px;
+            background-color: aqua;
+            border: 4px solid black;
+            margin: 40px 40px ;
+        }
+        .box2{
+            width: 800px;
+            height: 100px;
+            background-color: yellow;
+            border: 4px solid black;
+            margin-left: 40px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="box">
+        <div class="content-left">
+            <div class="content1">1</div>
+            <div class="content1">2</div>
+            <div class="content1">3</div>
+        </div>
+        <div class="content-right">
+            <div class="content2">1</div>
+            <div class="content2">2</div>
+            <div class="content2">3</div>
+        </div>
+    </div>
+    <div class="box2">1</div>
+</html>
